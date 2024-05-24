@@ -23,4 +23,4 @@ with open(output_file, mode='w', newline='') as file:
     writer.writerow(headers)  # Write the header row
     writer.writerows(data)    # Write the data rows
 
-print(f"Modified data has been saved to {security_incidents.csv}")
+print(f"Modified data saved to '{output_file}'")
